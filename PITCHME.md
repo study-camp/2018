@@ -1,4 +1,5 @@
-?image=assets/image/gitpitch-audience.jpg&opacity=100
+---?image=assets/image/gitpitch-audience.jpg&opacity=100
+
 @title[Study Camps]
 # <span class="white">Study Camps </span>
 ### <span class="white">2018 | Plans & Resources </span>
