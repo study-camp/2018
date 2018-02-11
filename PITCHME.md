@@ -1,14 +1,14 @@
 ---?image=assets/image/background.jpg&opacity=100
 
 @title[Study Camps]
-# <span class="white">Study Camps </span>
-### <span class="white">2018 | Plans & Resources </span>
+# <span class="white"> Study Camps </span>
+### <span class="white"> 2018 Goals </span>
 
 ---
 
 ## About Study Camps
 
-> 
+> ### Study Camps are events for community-supported learning
 
 ---
 
@@ -109,7 +109,7 @@ http.createServer(function (request, response) {
 
 @fa[medium gp-contact](@gitpitch)
 
----?image=assets/image/gitpitch-audience.jpg&opacity=100
+---?image=assets/image/background.jpg&opacity=70
 
 @title[Download this Template!]
 
