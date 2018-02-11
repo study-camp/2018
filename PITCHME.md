@@ -7,10 +7,9 @@
 ## <a href="http://bit.ly/gdgnyc-cloud-studyjams-2018"> Know the <br> Agenda </a>
 
  * Prepare for Assessment
- * Timed Exam / 90 minutes
- * Pass Score / 80% correct
- * Retakes? / One day later
-
+ * Timed Exam = _90 minutes_
+ * Pass Score = _80%_ 
+ * Retakes = _After 1 day_
 
 ---
 ## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Prepare for <br> Assessment</a>
@@ -23,21 +22,21 @@
 
 ---?image=assets/image/background.jpg&opacity=100
 <br/><br/><br/>
-## <span class="white"> M1: Value Proposition </span>
+## <span class="white"> 1. Value Proposition </span>
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
 
 
 ---?image=assets/image/background.jpg&opacity=100
 <br/><br/><br/>
-## <span class="white"> M2: Site Performance </span>
+## <span class="white"> 2. Site Performance </span>
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
 
 
 ---?image=assets/image/background.jpg&opacity=100
 <br/><br/><br/>
-## <span class="white"> M3: User Experience </span>
+## <span class="white"> 3. User Experience </span>
 
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a> </span>
 
@@ -45,29 +44,30 @@
 
 ---?image=assets/image/background.jpg&opacity=100
 <br/><br/><br/>
-## <span class="white"> M4: Tech Evolution </span>
+## <span class="white"> 4. Tech Evolution </span>
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
 
 
 ---?image=assets/image/background.jpg&opacity=100
 <br/><br/><br/>
-## <span class="white"> Mobile Site <br/> Certification </span>
+## <span class="white"> 5. Certification </span>
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
 
 
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
+---
 ## <span class="white"> Academy of Ads </span>
  
 #### <span class="white"> <a href="https://academy.exceedlms.com/student/path/2967"> Academy Study Path </a> </span>
 
----
-### [Win customers with mobile sites](https://academy.exceedlms.com/student/path/2967#)
+![GDG Study Jams](assets/image/logo.png)
 
 ---
-### [Cut load times with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
+### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Cut load times <br/> with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
 
 ---
 ### [Speed up mobile site rendering](https://academy.exceedlms.com/student/path/2967#)
@@ -76,7 +76,7 @@
 ### [Key metrics for testing your site](https://academy.exceedlms.com/student/path/2967#)
 
 ---
-### [Optimize mobile site transfer size](https://academy.exceedlms.com/student/path/2967#)
+### [Optimize mobile site <br/> transfer size](https://academy.exceedlms.com/student/path/2967#)
 
 ---
 ### [Optimize images and fonts](https://academy.exceedlms.com/student/path/2967#)
@@ -85,16 +85,16 @@
 ### [Focus on mobile user experience](https://academy.exceedlms.com/student/path/2967#)
 
 ---
-### [Deliver user-centered mobile experience](https://academy.exceedlms.com/student/path/2967#)
+### [Deliver user-centered <br/> mobile experience](https://academy.exceedlms.com/student/path/2967#)
 
 ---
-### [Make mobile sites that drive conversions](https://academy.exceedlms.com/student/path/2967#)
+### [Make mobile sites that <br/> drive conversions](https://academy.exceedlms.com/student/path/2967#)
 
 ---
-### [Test and optimize mobile experiences ](https://academy.exceedlms.com/student/path/2967#)
+### [Test and optimize <br/> mobile experiences ](https://academy.exceedlms.com/student/path/2967#)
 
 ---
-### [Create super fast sites with AMP](https://academy.exceedlms.com/student/path/2967#)
+### [Create super fast sites <br/> with AMP](https://academy.exceedlms.com/student/path/2967#)
 
 ---
 ### [Create Progressive Web Apps](https://academy.exceedlms.com/student/path/2967#)
