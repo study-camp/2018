@@ -66,41 +66,92 @@
 ---
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
 
+<!-- Speaker Notes -->
+Note:
+
+
 ---
 ### [Cut load times <br/> with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
 
----
-### [Speed up mobile site rendering](https://academy.exceedlms.com/student/path/2967#)
+<!-- Speaker Notes -->
+Note:
+
 
 ---
-### [Key metrics for testing your site](https://academy.exceedlms.com/student/path/2967#)
+### [Speed up <br/> mobile site rendering](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
 
 ---
-### [Optimize mobile site <br/> transfer size](https://academy.exceedlms.com/student/path/2967#)
+### [Key metrics <br/> for testing your site](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
 
 ---
-### [Optimize images and fonts](https://academy.exceedlms.com/student/path/2967#)
+### [Optimize <br/> mobile site transfer size](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
 
 ---
-### [Focus on mobile user experience](https://academy.exceedlms.com/student/path/2967#)
+### [Optimize <br/> images and fonts](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
 
 ---
-### [Deliver user-centered <br/> mobile experience](https://academy.exceedlms.com/student/path/2967#)
+### [Focus on <br/> mobile user experience](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
+
+---
+### [Deliver <br/> user-centered mobile experience](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
 
 ---
 ### [Make mobile sites that <br/> drive conversions](https://academy.exceedlms.com/student/path/2967#)
 
+<!-- Speaker Notes -->
+Note:
+
+
 ---
 ### [Test and optimize <br/> mobile experiences ](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
 
 ---
 ### [Create super fast sites <br/> with AMP](https://academy.exceedlms.com/student/path/2967#)
 
+<!-- Speaker Notes -->
+Note:
+
+
 ---
 ### [Create Progressive Web Apps](https://academy.exceedlms.com/student/path/2967#)
+
+<!-- Speaker Notes -->
+Note:
+
 
 ---
 ### [Engage users with APIs](https://academy.exceedlms.com/student/path/2967#)
 
----
+<!-- Speaker Notes -->
+Note:
 
+
+---
