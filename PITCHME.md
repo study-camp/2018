@@ -57,9 +57,9 @@
 
 
 ---
-## <span class="white"> Academy of Ads </span>
+## Academy of Ads
  
-#### <span class="white"> <a href="https://academy.exceedlms.com/student/path/2967"> Academy Study Path </a> </span>
+#### <a href="https://academy.exceedlms.com/student/path/2967"> Academy Study Path </a>
 
 ![GDG Study Jams](assets/image/logo.png)
 
