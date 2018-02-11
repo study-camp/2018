@@ -1,16 +1,13 @@
-# White
-
-### A GitPitch Presentation Template
+?image=assets/image/gitpitch-audience.jpg&opacity=100
+@title[Study Camps]
+# <span class="white">Study Camps </span>
+### <span class="white">2018 | Plans & Resources </span>
 
 ---
 
-## Tips!
+## About Study Camps
 
-<br>
-
-@fa[arrows gp-tip](Press F to go Fullscreen)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
+> 
 
 ---
 
