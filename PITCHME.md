@@ -1,13 +1,7 @@
-# GDG NYC <br/> Study Jams
-
-### Mobile Site Certification
-
-
 ---?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-<br/><br/><br/>
-## <span class="white"> Study Guide </span>
- 
+# <span class="white"> Mobile Site <br/> Certification </span>
+
+### <span class="white"> GDGNYC Study Guide </span>
 
 ---
 ## Agenda
@@ -16,9 +10,7 @@
 
 
 ---
-## Preparing for the Assessment
-
-Tests knowledge in four areas
+## Preparing for Assessment
 
  * Mobile Sites Value Proposition
  * Improving Mobile Website Speed
@@ -27,33 +19,38 @@ Tests knowledge in four areas
  
 
 ---?image=assets/image/background.jpg&opacity=100
-## Module 1: Proposition
+<br/><br/><br/>
+## <span class="white"> Module 1: Proposition </span>
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
 
 
 ---?image=assets/image/background.jpg&opacity=100
-## Module 2: Performance
+<br/><br/><br/>
+## <span class="white"> Module 2: Performance </span>
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
 
 
 ---?image=assets/image/background.jpg&opacity=100
+<br/><br/><br/>
+## <span class="white"> Module 3: Experience </span>
 
-## Module 3: Experience
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a> </span>
 
 
 
 ---?image=assets/image/background.jpg&opacity=100
-## Module 4: Evolution
+<br/><br/><br/>
+## <span class="white"> Module 4: Evolution </span>
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
 
 
 
 ---?image=assets/image/background.jpg&opacity=100
-## Assessment
+<br/><br/><br/>
+## <span class="white"> Certification </span>
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
 
