@@ -1,4 +1,4 @@
----?image=assets/image/gitpitch-audience.jpg&opacity=100
+---?image=assets/image/background.jpg&opacity=100
 
 @title[Study Camps]
 # <span class="white">Study Camps </span>
