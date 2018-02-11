@@ -4,16 +4,19 @@
 ### <span class="white"> GDGNYC Study Guide </span>
 
 ---
-## Know the <br> Agenda
- 
-#### <span class="white"> <a href="http://bit.ly/gdgnyc-cloud-studyjams-2018"> http://bit.ly/gdgnyc-cloud-studyjams-2018 </a> </span>
+## <a href="http://bit.ly/gdgnyc-cloud-studyjams-2018"> Know the <br> Agenda </a>
+
+ * Prepare for Assessment
+ * Timed Exam / 90 minutes
+ * Pass Score / 80% correct
+ * Retakes? / One day later
 
 
 ---
-## Prepare for <br> Assessment
+## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Prepare for <br> Assessment</a>
 
- * Mobile Sites Value Proposition
- * Improving Mobile Website Speed
+ * Understanding Value Proposition
+ * Improving Website Speed
  * Creating Effective UX
  * Advanced Web Technologies
  
@@ -47,14 +50,57 @@
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
 
 
-
 ---?image=assets/image/background.jpg&opacity=100
 <br/><br/><br/>
-## <span class="white"> Certification </span>
+## <span class="white"> Mobile Site <br/> Certification </span>
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
 
+
+---?image=assets/image/background.jpg&opacity=100
+<br/><br/><br/>
+## <span class="white"> Academy of Ads </span>
+ 
+#### <span class="white"> <a href="https://academy.exceedlms.com/student/path/2967"> Academy Study Path </a> </span>
+
 ---
+### [Win customers with mobile sites](https://academy.exceedlms.com/student/path/2967#)
 
+---
+### [Cut load times with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
 
+---
+### [Speed up mobile site rendering](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Key metrics for testing your site](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Optimize mobile site transfer size](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Optimize images and fonts](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Focus on mobile user experience](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Deliver user-centered mobile experience](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Make mobile sites that drive conversions](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Test and optimize mobile experiences ](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Create super fast sites with AMP](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Create Progressive Web Apps](https://academy.exceedlms.com/student/path/2967#)
+
+---
+### [Engage users with APIs](https://academy.exceedlms.com/student/path/2967#)
+
+---
 
