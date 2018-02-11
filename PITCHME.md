@@ -9,7 +9,9 @@
 
 ---?image=assets/image/background.jpg&opacity=100
 <br/>
-## <span class="white"> Notes </span>
+<br/>
+<br/>
+## <span class="white"> Study Guide </span>
  
 ---
 
