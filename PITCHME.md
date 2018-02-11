@@ -4,13 +4,13 @@
 ### <span class="white"> GDGNYC Study Guide </span>
 
 ---
-## Agenda
+## Know the <br> Agenda
  
 #### <span class="white"> <a href="http://bit.ly/gdgnyc-cloud-studyjams-2018"> http://bit.ly/gdgnyc-cloud-studyjams-2018 </a> </span>
 
 
 ---
-## Preparing for <br> Assessment
+## Prepare for <br> Assessment
 
  * Mobile Sites Value Proposition
  * Improving Mobile Website Speed
