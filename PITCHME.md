@@ -1,4 +1,4 @@
-# GDGNYC Study Jams
+# GDG NYC <br/> Study Jams
 
 ### Mobile Site Certification
 
@@ -7,7 +7,7 @@
  
 #### <a href="http://bit.ly/gdgnyc-cloud-studyjams-2018"> http://bit.ly/gdgnyc-cloud-studyjams-2018 </a>
 
----?image=assets/image/logo.jpg&opacity=100
+---?image=assets/image/background.jpg&opacity=100
 <br/>
 ## <span class="white"> Notes </span>
  
