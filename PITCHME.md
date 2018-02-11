@@ -8,12 +8,11 @@
 
 ## About Study Camps
 
-- Community-supported _applied_ learning
-- Half-day, Full-day or Multi-week events
-- Learn about Concepts, Code and Case Studies
-- Expert speakers; hands-on codelabs
-- Continued support and resources via _Slack_
-- Beginners welcome; advanced topics also targeted
+- Community-based learning
+- Half-day / Full-day / Multi-week
+- Concepts / Code / Case Studies
+- Expert speakers / hands-on codelabs
+- Beginner-friendly
 
 ---
 
@@ -31,36 +30,30 @@
     <ul>
         <li>
           <a href="https://www.meetup.com/gdgnyc/events/233576011/" target="_blank">
-            ML Camp @Conde Nast
+            ML Camp
           </a>
         </li>
         <li>
-          <a href="https://androidcamp.splashthat.com/" target="_blank">Android Camp @United Nations
+          <a href="https://androidcamp.splashthat.com/" target="_blank">Android Camp
           </a>
         </li>
         <li>
           <a href="https://pwacamp2017.splashthat.com/" target="_blank">
-            PWA Camp @General Assembly
+            PWA Camp
           </a>
         </li>
         <li>
           <a href="https://querycamp2017.splashthat.com/" target="_blank">
-            Query Camp @Google NYC
+            Query Camp
           </a>
         </li>
         <li>
           <a href="https://www.meetup.com/gdgnyc/events/234963796/" target="_blank">
-            Firebase Camp @Google NYC
+            Firebase Camp
           </a>
         </li>
     </ul>
 </div>
-
----?code=sample/go/server.go&lang=golang&title=Golang File
-
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
 ---
 
@@ -74,13 +67,16 @@
 
 <br>
 @fa[twitter gp-contact](@nitya)
+
 @fa[github gp-contact](nitya)
+
 @fa[medium gp-contact](@nitya)
 
----?image=assets/image/background.jpg&opacity=90
+---?image=assets/image/background.jpg&opacity=100
 
 @title[Ready to Learn?]
 
 ### <span class="white">Ready to Learn?</span>
+
 ### [Join our Slack @fa[slack gp-download]](https://gdgny.herokuapp.com)
 
