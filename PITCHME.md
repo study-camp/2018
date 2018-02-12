@@ -12,52 +12,7 @@
  * Retakes = _After 1 day_
 
 ---
-## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
-
- * What is the value proposition?
- * How can you improve website speed? 
- * How can you create effective UX?
- * About advanced web technologies
- 
-
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 1. Value Proposition </span>
- 
-#### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
-
-
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 2. Site Performance </span>
- 
-#### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
-
-
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 3. User Experience </span>
-
-#### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a> </span>
-
-
-
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 4. Tech Evolution </span>
- 
-#### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
-
-
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 5. Certification </span>
- 
-#### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
-
-
----
-## Academy of Ads
+## Study Guide: Academy of Ads
  
 #### <a href="https://academy.exceedlms.com/student/path/2967"> Academy Study Path </a>
 
@@ -106,7 +61,7 @@ Key turnoffs that imact conversions:
  * What is [the render tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)?
  * What [slows down](https://developers.google.com/web/fundamentals/performance/rail) websites?
  * What are [DevTools?](https://developers.google.com/web/tools/chrome-devtools/)?
- * How can DevTools [debug](https://developers.google.com/web/tools/chrome-devtools/network-performance/) perf issues?
+ * How can DevTools [debug perf issues](https://developers.google.com/web/tools/chrome-devtools/network-performance/)?
 
 <!-- Speaker Notes -->
 Note:
@@ -269,3 +224,54 @@ Note:
 
 
 ---
+## Study Guide: Google Partners 
+ 
+#### <a href="https://support.google.com/partners/answer/7327828"> Assessment Study Guide </a>
+
+![GDG Study Jams](assets/image/logo.png)
+
+
+---
+## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
+
+ * What is the value proposition?
+ * How can you improve website speed? 
+ * How can you create effective UX?
+ * About advanced web technologies
+ 
+
+---?image=assets/image/background.jpg&opacity=100
+<br/><br/><br/>
+## <span class="white"> 1. Value Proposition </span>
+ 
+#### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
+
+
+---?image=assets/image/background.jpg&opacity=100
+<br/><br/><br/>
+## <span class="white"> 2. Site Performance </span>
+ 
+#### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
+
+
+---?image=assets/image/background.jpg&opacity=100
+<br/><br/><br/>
+## <span class="white"> 3. User Experience </span>
+
+#### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a> </span>
+
+
+
+---?image=assets/image/background.jpg&opacity=100
+<br/><br/><br/>
+## <span class="white"> 4. Tech Evolution </span>
+ 
+#### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
+
+
+---?image=assets/image/background.jpg&opacity=100
+<br/><br/><br/>
+## <span class="white"> 5. Certification </span>
+ 
+#### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
+
