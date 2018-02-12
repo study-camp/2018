@@ -61,7 +61,7 @@ Key turnoffs that imact conversions:
  * What is [the render tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)?
  * What [slows down](https://developers.google.com/web/fundamentals/performance/rail) websites?
  * What are [DevTools?](https://developers.google.com/web/tools/chrome-devtools/)?
- * How can DevTools [debug perf issues](https://developers.google.com/web/tools/chrome-devtools/network-performance/)?
+ * How can DevTools [diagnose slow-downs](https://developers.google.com/web/tools/chrome-devtools/network-performance/)?
 
 <!-- Speaker Notes -->
 Note:
@@ -156,10 +156,10 @@ JavaScript Optimization:
 ---
 ### [Key metrics <br/> for testing your site](https://academy.exceedlms.com/student/path/2967#)
 
- * Key website perf metrics
+ * What are key perf metrics?
  * What is [Lie-Fi](https://developers.google.com/web/fundamentals/performance/poor-connectivity/)?
- * How can you emulate Lie-Fi UX? 
- * How can you [diagnose perf issues](https://developers.google.com/web/tools/chrome-devtools/network-performance/network-conditions)?
+ * How can you [emulate Lie-Fi UX](https://developers.google.com/web/tools/chrome-devtools/network-performance/network-conditions)? 
+ * How can CDT diagnose network issues?
 
 <!-- Speaker Notes -->
 Note:
@@ -196,14 +196,25 @@ How can Chrome DevTools (CDT) diagnose perf issues?
  * Identify large images | Change format (SVG) or optimize (compress)
  * Retest page load | Iterate.
 
-Read [Optimizing Performance Under Varying Network Conditions](https://developers.google.com/web/tools/chrome-devtools/network-performance/network-conditions)
 
 ---
 ### [Optimize <br/> mobile site transfer size](https://academy.exceedlms.com/student/path/2967#)
 
+ * How to eliminate unused resources?
+ * How to reduce size of downloaded assets?
+
 <!-- Speaker Notes -->
 Note:
 
+_Time: 1:22 mins_
+
+The fastest resource is the one _not_ sent. _How can you identify and eliminate unused resources?_
+ * Carousels. Are you downloading more images that you need to (if no one ever goes beyond the main one?)
+ * Social Media Integrations. Is your site pulling down real-time updates that have attached media? Are those optimized? Do we need this or is there a better way?
+ 
+Understanding data compression. _How can you reduce the size of transferred assets to improve perfomance?_
+ * Smaller files through minification. Remove comments, remove duplicates, collapse common containers, remove extraneous spaces.
+ * [Optimize encoding and transfer of text-based assets](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations)
 
 ---
 ### [Optimize <br/> images and fonts](https://academy.exceedlms.com/student/path/2967#)
