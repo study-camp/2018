@@ -67,10 +67,10 @@
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
 
 <br/>
-  * Mobile website = accessible from phones
-  * User benefit = discoverability + familiarity
-  * Businesss benefit = Lower costs + higher reach
-  * Website speed = critical for user conversions
+  * What is a mobile website?
+  * How does user benefit?
+  * How does owner benefit?
+  * What impacts conversions?
 
 <!-- Speaker Notes -->
 Note:
