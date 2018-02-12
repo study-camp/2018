@@ -66,9 +66,10 @@
 ---
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
 
-  * Mobile website = accessible from mobile device
-  * Discoverability + familiarity for users
-  * Lower costs + higher reach for businesses
+<br/>
+  * Mobile website = accessible from phones
+  * User benefit = discoverability + familiarity
+  * Businesss benefit = Lower costs + higher reach
   * Website speed = critical for user conversions
 
 <!-- Speaker Notes -->
