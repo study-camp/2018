@@ -66,7 +66,6 @@
 ---
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
 
-<br/>
   * What is a mobile website?
   * How does user benefit?
   * How does owner benefit?
@@ -77,26 +76,90 @@ Note:
 
 _Time: 5 mins_
 
-Three main turnoffs for mobile websites: 
- * slow page loads
- * poor user experience 
- * (cellular) network constraints (e.g., bandwidth)
+Definition:
 
-Why are mobile sites critical to users?
+ * website tailored for mobile device
+ * accessed via browser on phones
+
+Benefits to user:
+
  * easy to discover (no pre-install)
  * intuitive to use (familiar UI/UX)
  * readily available on phones
 
-Why are mobile sites critical to businesses?
+Benefits to owner:
+
  * lower development/maintenance costs
  * high usability * tracking
  * single codebase for cross-platform reach
 
+Key turnoffs that imact conversions: 
+
+ * slow page loads
+ * poor user experience 
+ * (cellular) network constraints (e.g., bandwidth)
+
+
 ---
 ### [Cut load times <br/> with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
 
+ * What is the render tree?
+ * What slows down mobile websites?
+ * Can DevTools help identify causes?
+ * Can DevTools help automate fixes?
+
 <!-- Speaker Notes -->
 Note:
+
+_Time: 15 mins_
+
+Use Chrome DevTools to debug delays:
+
+ * _Inspect_ Website, open _Network_ tab
+ * Enable _Capture Screenshots_
+ * Check _Disable Cache_
+ * Set Online to _Slow 3G_
+ * Now reload page
+ * Check _Finish_ and _Load_ times in footer
+ * Check _DOMContentLoaded_ time in footer
+ * Check _Waterfall_ green (TTFB) & blue (download) 
+
+Causes of delay
+
+ * Identify items with large blue waterfalls. These indicate large download times that need to be optimized (e.g., compress or scale image, minimize scripts etc.)
+ * DOMContentLoaded is effectively 'idle' browser time while it waits for DOM to be ready. Likely culprit is JavaScript file (parser blocking). Make these async and move to end of page <body> to speed up loading of HTML.
+
+Understanding render trees
+
+ * DOM = document object model (structure)
+ * CSSOM = CSS object model (styling)
+ * render tree = browser process of interpreting DOM/CSSOM
+    + first receive data bytes (HTML and CSS)
+    + convert bytes into objects (DOM and CSSOM)
+    + relate DOM (elements) with CSSOM (style)
+    + place DOM objects on page, apply CSSOM styles
+    + page is now "rendered"
+ 
+Understanding layout impact
+
+  * Layout determines "reflows" with device orientation or content changes
+  * Poor configurations = high reflow costs
+  * Complex animations = high reflow costs
+  * Goal = minimize reflows!!
+
+Debugging critical rendering path delays
+
+  * Switch to _Performance_ tab in DevTools
+  * Click "Record" to start recording events
+  * Reload page to capture all events for initial render
+  * Stop recording, filter by event name to see data
+    + Parse HTML = time for building DOM
+    + Recalculate Style = time for building CSSOM
+    + Paint = time for updating screen area for view
+    + Composite Layer = time for creating final view by combining multiple elements that influence that section of view 
+
+Bottom line:
+DevTools helps detect different sources of latency in your website, and provides tools to debug causes of those performance issues. It does NOT however fix them for you.
 
 
 ---
