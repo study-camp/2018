@@ -206,7 +206,7 @@ How can Chrome DevTools (CDT) diagnose perf issues?
 <!-- Speaker Notes -->
 Note:
 
-_Time: 1:22 mins_
+_Time: 22 mins_
 
 The fastest resource is the one _not_ sent. _How can you identify and eliminate unused resources?_
  * Carousels. Are you downloading more images that you need to (if no one ever goes beyond the main one?)
@@ -219,16 +219,51 @@ Understanding data compression. _How can you reduce the size of transferred asse
 ---
 ### [Optimize <br/> images and fonts](https://academy.exceedlms.com/student/path/2967#)
 
+ * How to optimize fonts?
+ * How to optimize images?
+ * How to optimize caching strategy?
+
 <!-- Speaker Notes -->
 Note:
 
+_Time: 20 mins_
+
+Web fonts and images improve design but add latency. Let's optimize this by eliminating them (if possible), optimizing them (for efficiency) and caching them optimally (for reuse)
+
+How can you optimize images?
+
+ * Minify and compress vector images. SVG (Scalable Vector Graphics) are ideal for multi-device, high-resolution, compact image representation.
+ * Remove unnecessary image metadata. Drawing apps may pack unnecessary metadata into the images. Remove and/or compress for efficiency.
+ * Pick best raster image format. Dial down quality or select formats that optimize for downloads (& byte savings) without significantly impacting experience.
+ * Resize on server. Create scaled versions of images on server for optimal size/resolutions that are closest to the "natural" size of the displayed element.
+ * Automate, automate, automate. Invest in tools and processes that auto-compress images, auto-minify/compress files etc.
+
+How can you optimize your fonts?
+
+ * Optimized fonts, combined with loading strategy, is ideal.
+ * Best practices
+    + don't use too many fonts
+    + minimize number of used variants per font
+    + fonts can be split into subsets with just the needed glyphs
+    + deliver optimized font formats to browser (multiple formats may exist)
+    + fonts are static resources. cache/revalidate intelligently
+    + explore [_Font Loading API_](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Font_Loading_API) for custom rendering/timeout strategies
+
+How can you optimize caching strategy?
+
+ * Consistent URLs for same content to leverage caching/reuse
+ * [ETag Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) - Validation tokens eliminate need to reload (if asset has not changed on server)
+ * Intermediaries - what assets can be cached by intermediaries like CDNs? (Ideally content that is static and non-user specific)
+ * Cache lifetime - determine default cache max-age for each item to tradeoff fetch times against freshness
+ * Cache hierarchy - resource URLs with short or no-cache lifetimes for HTML documents, ensures pages are freshly loaded but the assets they use are cached optimally
+ * Churn - identify parts of code that change more frequently than others, and isolate them in their own file. Now the rest can be loaded once and cached, and only the small changing subset reloaded on-demand.
+ 
 
 ---
 ### [Focus on <br/> mobile user experience](https://academy.exceedlms.com/student/path/2967#)
 
 <!-- Speaker Notes -->
 Note:
-
 
 ---
 ### [Deliver <br/> user-centered mobile experience](https://academy.exceedlms.com/student/path/2967#)
