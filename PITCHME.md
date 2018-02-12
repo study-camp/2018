@@ -66,9 +66,30 @@
 ---
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
 
+  * Mobile website = accessible from mobile device
+  * Discoverability + familiarity for users
+  * Lower costs + higher reach for businesses
+  * Website speed = critical for user conversions
+
 <!-- Speaker Notes -->
 Note:
 
+_Time: 5 mins_
+
+Three main turnoffs for mobile websites: 
+ * slow page loads
+ * poor user experience 
+ * (cellular) network constraints (e.g., bandwidth)
+
+Why are mobile sites critical to users?
+ * easy to discover (no pre-install)
+ * intuitive to use (familiar UI/UX)
+ * readily available on phones
+
+Why are mobile sites critical to businesses?
+ * lower development/maintenance costs
+ * high usability * tracking
+ * single codebase for cross-platform reach
 
 ---
 ### [Cut load times <br/> with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
@@ -141,14 +162,14 @@ Note:
 
 
 ---
-### [Create Progressive Web Apps](https://academy.exceedlms.com/student/path/2967#)
+### [Create <br/> Progressive Web Apps](https://academy.exceedlms.com/student/path/2967#)
 
 <!-- Speaker Notes -->
 Note:
 
 
 ---
-### [Engage users with APIs](https://academy.exceedlms.com/student/path/2967#)
+### [Engage users <br/> with APIs](https://academy.exceedlms.com/student/path/2967#)
 
 <!-- Speaker Notes -->
 Note:
