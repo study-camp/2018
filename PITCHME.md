@@ -12,7 +12,7 @@
  * Retakes = _After 1 day_
 
 ---?image=assets/image/background.jpg&opacity=100
-## Study Guide A
+## <span class="white"> Study Guide A </span>
  
 #### <a href="https://academy.exceedlms.com/student/path/2967"> Academy Of Ads Learning Path </a>
 
@@ -223,8 +223,8 @@ Note:
 Note:
 
 
----
-## Study Guide B 
+---?image=assets/image/background.jpg&opacity=100
+## <span class="white"> Study Guide B </span>
  
 #### <a href="https://support.google.com/partners/answer/7327828"> Google Partners Assessment Guide </a>
 
@@ -240,38 +240,39 @@ Note:
  * About advanced web technologies
  
 
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 1. Value Proposition </span>
+---
+## 1. Value Proposition 
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
 
 
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 2. Site Performance </span>
+---
+## 2. Site Performance
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
 
 
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 3. User Experience </span>
+---
+## 3. User Experience
 
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a> </span>
 
 
 
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 4. Tech Evolution </span>
+---
+## 4. Tech Evolution 
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
 
 
----?image=assets/image/background.jpg&opacity=100
-<br/><br/><br/>
-## <span class="white"> 5. Certification </span>
+---
+## 5. Certification 
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
 
+---?image=assets/image/background.jpg&opacity=100
+# <span class="white"> GDGNYC <br/> Study Jams </span>
+
+### <a href="https://gdgny.herokuapp.com"> Join us on Slack! </span>
+
+---
