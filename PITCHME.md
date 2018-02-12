@@ -11,10 +11,10 @@
  * Pass Score = _80%_ 
  * Retakes = _After 1 day_
 
----
-## Study Guide: Academy of Ads
+---?image=assets/image/background.jpg&opacity=100
+## Study Guide A
  
-#### <a href="https://academy.exceedlms.com/student/path/2967"> Academy Study Path </a>
+#### <a href="https://academy.exceedlms.com/student/path/2967"> Academy Of Ads Learning Path </a>
 
 ![GDG Study Jams](assets/image/logo.png)
 
@@ -224,9 +224,9 @@ Note:
 
 
 ---
-## Study Guide: Google Partners 
+## Study Guide B 
  
-#### <a href="https://support.google.com/partners/answer/7327828"> Assessment Study Guide </a>
+#### <a href="https://support.google.com/partners/answer/7327828"> Google Partners Assessment Guide </a>
 
 ![GDG Study Jams](assets/image/logo.png)
 
