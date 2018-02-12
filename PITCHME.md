@@ -156,10 +156,10 @@ JavaScript Optimization:
 ---
 ### [Key metrics <br/> for testing your site](https://academy.exceedlms.com/student/path/2967#)
 
- * What are key website perf metrics?
- * What is Lie-Fi? Why does it matter?
- * What tools help emulate UX for Lie-Fi? 
- * What tools help diagnose perf issues?
+ * Key website perf metrics
+ * What is [Lie-Fi](https://developers.google.com/web/fundamentals/performance/poor-connectivity/)?
+ * How can you emulate Lie-Fi UX? 
+ * How can you [diagnose perf issues](https://developers.google.com/web/tools/chrome-devtools/network-performance/network-conditions)?
 
 <!-- Speaker Notes -->
 Note:
