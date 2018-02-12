@@ -114,7 +114,7 @@ Debugging critical rendering path delays
     + Composite Layer = time for creating final view by combining multiple elements that influence that section of view 
 
 Bottom line:
-DevTools helps detect different sources of latency in your website, and provides tools to debug causes of those performance issues. It does NOT however fix them for you.
+Chrome DevTools (CDT) helps detect different sources of latency in your website, and provides tools to debug causes of those performance issues. It does NOT however fix them for you.
 
 
 ---
@@ -156,9 +156,47 @@ JavaScript Optimization:
 ---
 ### [Key metrics <br/> for testing your site](https://academy.exceedlms.com/student/path/2967#)
 
+ * What are key website perf metrics?
+ * What is Lie-Fi? Why does it matter?
+ * What tools help emulate UX for Lie-Fi? 
+ * What tools help diagnose perf issues?
+
 <!-- Speaker Notes -->
 Note:
 
+_Time: 20 mins_
+
+Poor website performance can lead to higher user bounce rates (site departures) and lower conversion rates (site interactions of value)
+
+What are the criteria for site performance?
+
+ * Speed Index. Score averaging time at which various parts of page are displayed. Lower (below 5000) is better. 
+ * Total requests. Number of resource requests (to server) to build a page. Lower (80-100) is better. Combine/eliminate requests to achieve it.
+ * Page weight. Total size of resources to build page. Should not be larger than 1 MB. Remove/compress resources to achieve this.
+
+What is Lie-Fi?
+
+ * Perception of good network access when reality is that network issues exist
+ * Network issues include: intermittent connectivity, router issues, server issues, MSO issues etc.
+ * Any delays in request/response path contribute to Lie-Fi.
+
+What tools can help you emulate user experience?
+
+ * *Browser Tools.* Use CDT Network Panel to test upload/download speeds and round-trip times under various conditions.
+ * *System Tools.* Use Network Link Conditioner on Mac (available via XCode Hardware IO tools) to simulate various network conditions.
+ * *Device Emulator.* Android Emulator allows network conditions to be simulated via settings, for both web apps & hybrid web apps
+ * *Location Services.* [WebPageTest](https://www.webpagetest.org/) runs perf tests on your site from various physical locations to provide real feedback on performance at those location.
+ * *Impairment Apps.* Facebook and others have applications that can be used to shape traffic and emulate impaired network conditions. 
+
+How can Chrome DevTools (CDT) diagnose perf issues?
+ * Inspect site with CDT. Open Network panel.
+ * Capture Screenshots | Disable Cache | Poor 3G Network
+ * Reload page | Check load times | Check waterfall 
+ * Identify slow scripts | Mark async or defer
+ * Identify large images | Change format (SVG) or optimize (compress)
+ * Retest page load | Iterate.
+
+Read [Optimizing Performance Under Varying Network Conditions](https://developers.google.com/web/tools/chrome-devtools/network-performance/network-conditions)
 
 ---
 ### [Optimize <br/> mobile site transfer size](https://academy.exceedlms.com/student/path/2967#)
