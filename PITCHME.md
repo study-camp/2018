@@ -104,9 +104,9 @@ Key turnoffs that imact conversions:
 ### [Cut load times <br/> with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
 
  * What is [the render tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)?
- * What [slows down websites](https://developers.google.com/web/fundamentals/performance/rail)?
- * What[are Chrome DevTools?](https://developers.google.com/web/tools/chrome-devtools/)?
- * How [can DevTools debug perf issues?](https://developers.google.com/web/tools/chrome-devtools/network-performance/)?
+ * What [slows down](https://developers.google.com/web/fundamentals/performance/rail) websites?
+ * What are [DevTools?](https://developers.google.com/web/tools/chrome-devtools/)?
+ * How can DevTools [debug](https://developers.google.com/web/tools/chrome-devtools/network-performance/) perf issues?
 
 <!-- Speaker Notes -->
 Note:
@@ -165,10 +165,10 @@ DevTools helps detect different sources of latency in your website, and provides
 ---
 ### [Speed up <br/> mobile site rendering](https://academy.exceedlms.com/student/path/2967#)
 
- * What is [the critical rendering path?](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/)
- * How can you [measure](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp) the critical rendering path?
- * How can you [analyze](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp) the critical rendering path?
- * How can you [optimize] (https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path) the critical rendering path?
+ * What is the [critical rendering path?](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/)
+ * How can you [measure](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp) it?
+ * How can you [analyze](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp) it?
+ * How can you [optimize](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path) it?
 
 <!-- Speaker Notes -->
 Note:
