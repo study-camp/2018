@@ -12,12 +12,12 @@
  * Retakes = _After 1 day_
 
 ---
-## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Prepare for <br> Assessment</a>
+## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
 
- * Understanding Value Proposition
- * Improving Website Speed
- * Creating Effective UX
- * Advanced Web Technologies
+ * What is the value proposition?
+ * How can you improve website speed? 
+ * How can you create effective UX?
+ * About advanced web technologies
  
 
 ---?image=assets/image/background.jpg&opacity=100
@@ -67,9 +67,9 @@
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
 
   * What is a mobile website?
-  * How does user benefit?
-  * How does owner benefit?
-  * What impacts conversions?
+  * How does the user benefit?
+  * How does the owner benefit?
+  * What impacts user conversions?
 
 <!-- Speaker Notes -->
 Note:
@@ -103,10 +103,10 @@ Key turnoffs that imact conversions:
 ---
 ### [Cut load times <br/> with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
 
- * What is the render tree?
- * What slows down mobile websites?
- * Can DevTools help identify causes?
- * Can DevTools help automate fixes?
+ * What is [the render tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)?
+ * What [slows down websites](https://developers.google.com/web/fundamentals/performance/rail)?
+ * What[are Chrome DevTools?](https://developers.google.com/web/tools/chrome-devtools/)?
+ * How [can DevTools debug perf issues?](https://developers.google.com/web/tools/chrome-devtools/network-performance/)?
 
 <!-- Speaker Notes -->
 Note:
@@ -165,9 +165,38 @@ DevTools helps detect different sources of latency in your website, and provides
 ---
 ### [Speed up <br/> mobile site rendering](https://academy.exceedlms.com/student/path/2967#)
 
+ * What is [the critical rendering path?](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/)
+ * How can you [measure](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp) the critical rendering path?
+ * How can you [analyze](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp) the critical rendering path?
+ * How can you [optimize] (https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path) the critical rendering path?
+
 <!-- Speaker Notes -->
 Note:
 
+_Time: 20 mins_
+
+Speeding up websites requires streamlining the critical rendering path by removing common issues that create slowdowns:
+ * Running blocking scripts that are non critical
+ * Loading resources that are non critical
+
+What are the goals?
+
+ * Limit critical resources. These are resources that appear _before_ the body of the page.
+ * Shorten critical path. Several large resources in sequence can cause drag (gfetch time + load/apply time). Identify ways to reduce sequences.
+ * Minimize critical bytes. Separate into "must load first" and "can load later" parts of website (e.g., above the fold vs. require scroll to view). Optimize sizes (file compression, format selection etc.)
+
+Four Step Process:
+
+ 1. ANALYZE. Use DevTools to visualize number of resources, bytes and overall length of critical path.
+ 2. MINIMIZE. Eliminate resources from critical path. Use _async_ or _defer_ for JavaScript that is not needed in initial render. For non-critical files (e.g., styles, images) remove from markup (HTML) and instead use JavaScript to lazy-load them after.
+ 3. OPTIMIZE. Use compression tools, smart file format choices and efficient coding patterns to reduce volume of critical bytes.
+ 4. REORDER. Set critical assets to download as early as possible so as to speed up critical rendering path.
+
+JavaScript Optimization:
+
+ * Rewrite JavaScript for faster code execution
+ * Defer download of script file so essential HTML loads first
+ * Mark script as async so webpage renders while script is processed 
 
 ---
 ### [Key metrics <br/> for testing your site](https://academy.exceedlms.com/student/path/2967#)
