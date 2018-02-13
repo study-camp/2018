@@ -383,8 +383,35 @@ Streamlining forms. Frictionless data entry.
 ---
 ### [Test and optimize <br/> mobile experiences ](https://academy.exceedlms.com/student/path/2967#)
 
+ * What is A/B Testing (ABT)?
+ * What is Google Analytics (GA)?
+ * How can ABT drive design decisions?
+ * How can GA drive perf insights & optimization?
+ * Learn about: Google [Optimize](https://support.google.com/360suite/optimize/answer/6211921) and [Analytics](https://support.google.com/analytics/answer/1008015?hl=en&ref_topic=3544906)
+
+ 
 <!-- Speaker Notes -->
 Note:
+
+How do we normally make a decision?
+ * Executive approach. One person decides.
+ * Democratic approach. Everyone votes and majority wins.
+ * Data-driven approach. Run experiments, use insights.
+
+Data-driven approach: A/B Testing
+ * Decide between two (or more) options
+ * Serve each option randomly to a subset of site visitors.
+ * Keep context consistent (e.g., same time of day for all)
+ * Tools: Manage testing with [Google Optimize](https://www.google.com/analytics/optimize/)
+
+Measuring performance: Google Analytics
+ * Bounce rate: user left landing page without interacting
+ * Device usage: what devices/OS are used, do they impact perf? 
+ * Browser/Screen Data: study impact of platform or screen resolution
+ * Site search reprots: Usage of search, related conversion rates (show efficacy of search and identify areas for improving navigation)
+ * Shopping behavior analysis: Purchase funnel, where are users abandoning process (and why, based on possible causes at each step)
+ * Checkout behavior analysis: Checkout funnel (key conversion), where are userrs abandoning it (and why, e.g., registration as deal-breaker)
+ 
 
 
 
