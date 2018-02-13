@@ -262,9 +262,36 @@ How can you optimize caching strategy?
 ---
 ### [Focus on <br/> mobile user experience](https://academy.exceedlms.com/student/path/2967#)
 
+ * What defines good mobile UX?
+ * How can you motivate conversions?
+ * What configuration techniques should I use?
+
 <!-- Speaker Notes -->
 Note:
 
+What defines a good user experience?
+ * Clear navigational cues (sitemaps)
+ * Conspicuous search bar (quick finds)
+ * Rich & usable options (browse & filter)
+
+How can you motivate conversions?
+ * Eliminate number of clicks for desired outcome
+ * Eliminate unnecessary data entry (auto-fill forms)
+ * Reduce user friction (e.g., proceed as guest)
+ 
+How can I configure mobile sites (for diverse screens)
+
+ Pick strategy based on your requirement: 
+  * should URL be the same?
+  * should HTML (code) be the same?
+
+Strategy Options are:
+ * Responsive web design. URL & HTML stay the same; layout reflows to suit different screen sizes.
+ * Dynamic serving. URL stays the same but HTML differs for each device type. Achieved by having server dynamically return relevant HTML for same URL request, based on client context (e.g., user-agent, device type etc.)
+ * Separate URLs.  URL changes for each device type. Effectively, the site routes user to different URLs (with different HTML) using HTTP redirects, based on detected client context.
+
+Use the [TestMySite](https://testmysite.thinkwithgoogle.com/) service to check your site's UX for mobile usability and performance.
+  
 ---
 ### [Deliver <br/> user-centered mobile experience](https://academy.exceedlms.com/student/path/2967#)
 
