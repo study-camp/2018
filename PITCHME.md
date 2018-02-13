@@ -3,6 +3,8 @@
 
 ### <span class="white"> GDGNYC Study Guide </span>
 
+
+
 ---
 ## <a href="http://bit.ly/gdgnyc-cloud-studyjams-2018"> Know the <br> Agenda </a>
 
@@ -11,12 +13,16 @@
  * Pass Score = _80%_ 
  * Retakes = _After 1 day_
 
+
+
 ---?image=assets/image/background.jpg&opacity=100
 ## <span class="white"> Study Guide A </span>
  
 #### <a href="https://academy.exceedlms.com/student/path/2967"> Academy Of Ads Learning Path </a>
 
 ![GDG Study Jams](assets/image/logo.png)
+
+
 
 ---
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
@@ -48,11 +54,13 @@ Benefits to owner:
  * high usability * tracking
  * single codebase for cross-platform reach
 
-Key turnoffs that imact conversions: 
+Key turnoffs that impact conversions: 
 
  * slow page loads
  * poor user experience 
  * (cellular) network constraints (e.g., bandwidth)
+
+
 
 
 ---
@@ -117,6 +125,8 @@ Bottom line:
 Chrome DevTools (CDT) helps detect different sources of latency in your website, and provides tools to debug causes of those performance issues. It does NOT however fix them for you.
 
 
+
+
 ---
 ### [Speed up <br/> mobile site rendering](https://academy.exceedlms.com/student/path/2967#)
 
@@ -152,6 +162,8 @@ JavaScript Optimization:
  * Rewrite JavaScript for faster code execution
  * Defer download of script file so essential HTML loads first
  * Mark script as async so webpage renders while script is processed 
+
+
 
 ---
 ### [Key metrics <br/> for testing your site](https://academy.exceedlms.com/student/path/2967#)
@@ -197,6 +209,8 @@ How can Chrome DevTools (CDT) diagnose perf issues?
  * Retest page load | Iterate.
 
 
+
+
 ---
 ### [Optimize <br/> mobile site transfer size](https://academy.exceedlms.com/student/path/2967#)
 
@@ -215,6 +229,8 @@ The fastest resource is the one _not_ sent. _How can you identify and eliminate 
 Understanding data compression. _How can you reduce the size of transferred assets to improve perfomance?_
  * Smaller files through minification. Remove comments, remove duplicates, collapse common containers, remove extraneous spaces.
  * [Optimize encoding and transfer of text-based assets](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations)
+
+
 
 ---
 ### [Optimize <br/> images and fonts](https://academy.exceedlms.com/student/path/2967#)
@@ -259,6 +275,8 @@ How can you optimize caching strategy?
  * Churn - identify parts of code that change more frequently than others, and isolate them in their own file. Now the rest can be loaded once and cached, and only the small changing subset reloaded on-demand.
  
 
+
+
 ---
 ### [Focus on <br/> mobile user experience](https://academy.exceedlms.com/student/path/2967#)
 
@@ -292,25 +310,82 @@ Strategy Options are:
 
 Use the [TestMySite](https://testmysite.thinkwithgoogle.com/) service to check your site's UX for mobile usability and performance.
   
+
+
 ---
 ### [Deliver <br/> user-centered mobile experience](https://academy.exceedlms.com/student/path/2967#)
 
+ * How to design the Homepage?
+ * How to design Site Navigation?
+ * How to design Site Search?
+
 <!-- Speaker Notes -->
 Note:
+
+Key focus is connecting user to content they want. Mobile sites should optimize for this by focusing on:
+ * Design of Homepage
+ * Design of Navigation
+ * Design of Search
+
+Process:
+ * Prioritize what's important
+ * Make priorities prominent on page
+ * Fewest menu items (on mobile)
+ * Consistent across pages (e.g., logo at top left)
+ * Intelligent site search
+
+Designing site Search
+ * Make search button VISIBLE
+ * Provide RELEVANT results
+ * Simplify data ENTRY (auto-complete, spellcheck)
+ * Offer FILTERS (refine search up front)
+ * Guide users to BETTER results (recommendations, ask contextual questions ahead of time)
+
+Mobile Usability and Form Factor
+ * Optimize entire site for mobile (not hybrid mobile/desktop)
+ * Offer the right zoom (design so user doesn't need to change size on demand! But offer richer views if they do)
+ * Stay in the same window (no launching new tab) - users need to feel they are in the same app, and find way back
+ * Don't say "full site" - say "desktop site" (else users think mobile is limited in some way)
+ * Be clear about location - don't autodetect. Instead provide calls to action that indicate why we want their permission to use location (e..g., find near me)
+
 
 
 ---
 ### [Make mobile sites that <br/> drive conversions](https://academy.exceedlms.com/student/path/2967#)
 
+ * How can you give users more control of UX?
+ * How can you design to optimize conversions?
+ * How can you reduce friction for data entry?
+ * What makes a [good mobile site](https://developers.google.com/web/fundamentals/getting-started/principles/)?
+
 <!-- Speaker Notes -->
 Note:
 
+Putting users in control of UX means giving them choices and guidance (instead of making choices for them) 
+ * Choice to register. Allow guest modes.
+ * Choice of formats for data entry. Pick vs. type.
+ * Guidance in data entry. Auto-fill forms.
+
+Design for max conversions
+ * Make registration optional. "Try before buy".
+ * Make data entry easy. Save progress. Prompt reuse.
+ * Reduce completion effort. Click-to-call. Share-to-self.
+ 
+Streamlining forms. Frictionless data entry.
+ * Set types per input. Validation & contextual keyboards!
+ * Avoid text input if possible. Drop-downs, toggles, checkboxes.
+ * Auto-fill data. Save & reuse relevant context.
+ * Auto-advance in form. Move focus seamlessly.
+ * Provide visual cues. e.g., use calendars for dates.
+ * Minimize errors. Validate inputs, show useful prompts/errors
+ * Make forms efficient. Remove redundancy. Show progress. Auto-fill.
 
 ---
 ### [Test and optimize <br/> mobile experiences ](https://academy.exceedlms.com/student/path/2967#)
 
 <!-- Speaker Notes -->
 Note:
+
 
 
 ---
@@ -320,11 +395,13 @@ Note:
 Note:
 
 
+
 ---
 ### [Create <br/> Progressive Web Apps](https://academy.exceedlms.com/student/path/2967#)
 
 <!-- Speaker Notes -->
 Note:
+
 
 
 ---
@@ -334,12 +411,14 @@ Note:
 Note:
 
 
+
 ---?image=assets/image/background.jpg&opacity=100
 ## <span class="white"> Study Guide B </span>
  
 #### <a href="https://support.google.com/partners/answer/7327828"> Google Partners Assessment Guide </a>
 
 ![GDG Study Jams](assets/image/logo.png)
+
 
 
 ---
@@ -351,16 +430,21 @@ Note:
  * About advanced web technologies
  
 
+
+
 ---
 ## 1. Value Proposition 
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
 
 
+
+
 ---
 ## 2. Site Performance
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
+
 
 
 ---
@@ -376,10 +460,14 @@ Note:
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
 
 
+
+
 ---
 ## 5. Certification 
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
+
+
 
 ---?image=assets/image/background.jpg&opacity=100
 # <span class="white"> GDGNYC <br/> Study Jams </span>
