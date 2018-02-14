@@ -418,9 +418,30 @@ Measuring performance: Google Analytics
 ---
 ### [Create super fast sites <br/> with AMP](https://academy.exceedlms.com/student/path/2967#)
 
+  * What are Accelerated Mobile Pages (AMP)?
+  * What is [AMP HTML](https://www.ampproject.org/docs/reference/spec)?
+  * What is the AMP Cache?
+  * [How does AMP work](https://www.ampproject.org/learn/how-amp-works/) to deliver content faster?
+
 <!-- Speaker Notes -->
 Note:
+Accelerated Mobile Pages (AMP) are _static content pages_ that are streamlined for fast (almost instantaneous) loads
+ * built on open web standards
+ * normal web pages with restrictions and add-ons
+ * use AMP HTML (= standard HTML _extended with custom AMP properties_)
+ * use AMP tags (= custom elements) for enhanced behaviors
+ 
+AMP Features:
+ * AMP JavaScript library. Allows only async JS so nothing in page can block rendering.
+ * AMP Cache. Proxy-based CDN that caches AMP HTML pages, validates content and optimizes performance automatically at the edge.
 
+How does AMP Work?
+ * All resources (images, iframes) MUST specify their sizes in the HTML.
+ * AMP now determines resource size and position first, and prioritizes downloads of important or "visible" items first.
+ * All CSS styles MUST be inline so there is no waiting for CSS.
+ * AMP does page layout before all resources are downloaded
+ * No blocking extensions (embeds). Instead use equivalent AMP extensions that make requests without blocking page render.
+ * All AMP pages using third-party JS MUST be sandboxed into iframes so they don't block execution of the main page.
 
 
 ---
@@ -464,6 +485,10 @@ Note:
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
 
+<!-- Speaker Notes -->
+Note:
+
+
 
 
 
@@ -472,6 +497,10 @@ Note:
  
 #### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
 
+<!-- Speaker Notes -->
+Note:
+
+
 
 
 ---
@@ -479,12 +508,20 @@ Note:
 
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a> </span>
 
+<!-- Speaker Notes -->
+Note:
+
+
 
 
 ---
 ## 4. Tech Evolution 
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
+
+<!-- Speaker Notes -->
+Note:
+
 
 
 
@@ -494,6 +531,11 @@ Note:
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
 
+
+<!-- Speaker Notes -->
+Note:
+
+My experiences with taking the assessment:
 
 
 ---?image=assets/image/background.jpg&opacity=100
