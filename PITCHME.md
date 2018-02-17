@@ -494,11 +494,26 @@ Note:
   <ol>
     <li> <a href="https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html">Find Out How You Stack Up to New Industry Benchmarks for Mobile Page Speed</a></li>
     <li> <a href="https://www.thinkwithgoogle.com/articles/mobile-retail-apps-and-sites-designing-better-experience-for-shoppers.html"> Mobile Retail Apps and Sites: Designing a Better Experience for Shoppers </a></li>
+    <li><a href="https://developers.google.com/web/tools/chrome-devtools/network-performance/">Get Started with Analyzing Network Performance in Chrome DevTools</a></li>
+    <li><a href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPmKmNX-INgcxQWf30KuWa_A">Udacity Web Performance Optimization</a></li>
+    <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path">Optimizing the Critical Rendering Path</a></li>
+    <li><a href="https://developers.google.com/web/tools/chrome-devtools/network-performance/network-conditions">Optimize Performance Under Varying Network Conditions</a></li>
+    <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations">Optimizing Encoding and Transfer Size of Text-Based Assets</a></li>
+    <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization">Image Optimization</a></li>
+    <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization">Web Font Optimization</a></li>
+    <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching"></a>HTTP Caching</li>
+    <li><a href="https://testmysite.thinkwithgoogle.com/">Test how mobile-friendly your site is</a></li>
+    <li><a href="https://developers.google.com/web/fundamentals/getting-started/principles/"></a>What makes a good mobile website?</li>
+    <li><a href="https://support.google.com/360suite/optimize/answer/6211921">Set up Optimize</a></li>
+    <li><a href="https://support.google.com/analytics/answer/1008015?hl=en&ref_topic=3544906"></a>Get Started with Analytics</li>
+    <li><a href="https://www.ampproject.org/docs/reference/spec">AMP HTML Specification</a></li>
+    <li><a href="https://www.ampproject.org/learn/how-amp-works/">How AMP Works</a></li>
+    <li><a href="https://www.ampproject.org/docs/get_started/create">Create your first AMP page</a></li>
+    <li><a href="https://developers.google.com/web/progressive-web-apps/">Progressive Web Apps</a></li>
+    <li><a href="https://developers.google.com/web/fundamentals/getting-started/primers/promises"></a>JavaScript Promises</li>
+    <li><a href="https://developers.google.com/web/fundamentals/discovery-and-monetization/payment-request/">Payment Request API: An Integration Guide</a></li>
   </ol>
 </small>
- 1. 
-
-
 
 ---
 ## 6. Certification 
