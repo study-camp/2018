@@ -486,9 +486,11 @@ Service Workers
 ---
 ### [Engage users <br/> with APIs](https://academy.exceedlms.com/student/path/2967#)
 
-Mobile apps are a big driver of e-commerce. How can you 
+Mobile apps are a big driver of e-commerce. 
+<br/>
+How can you 
  * engage users and bring them back to your site? 
- * reduce payments friction in the checkout workflow?
+ * reduce payments friction in checkout workflow?
  
 
 <!-- Speaker Notes -->
