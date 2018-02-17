@@ -488,7 +488,7 @@ Note:
  
 
 ---
-## 5. Recommended Reading
+## 5A. Recommended Reading
 
 <small>
   <ol>
@@ -501,11 +501,19 @@ Note:
     <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations">Optimizing Encoding and Transfer Size of Text-Based Assets</a></li>
     <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization">Image Optimization</a></li>
     <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization">Web Font Optimization</a></li>
-    <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching"></a>HTTP Caching</li>
+    <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching">HTTP Caching</a></li>
+  </ol>
+</small>
+
+---
+## 5B. Recommended Reading
+
+<small>
+  <ol>
     <li><a href="https://testmysite.thinkwithgoogle.com/">Test how mobile-friendly your site is</a></li>
-    <li><a href="https://developers.google.com/web/fundamentals/getting-started/principles/"></a>What makes a good mobile website?</li>
+    <li><a href="https://developers.google.com/web/fundamentals/getting-started/principles/">What makes a good mobile website?</a></li>
     <li><a href="https://support.google.com/360suite/optimize/answer/6211921">Set up Optimize</a></li>
-    <li><a href="https://support.google.com/analytics/answer/1008015?hl=en&ref_topic=3544906"></a>Get Started with Analytics</li>
+    <li><a href="https://support.google.com/analytics/answer/1008015?hl=en&ref_topic=3544906">Get Started with Analytics</a></li>
     <li><a href="https://www.ampproject.org/docs/reference/spec">AMP HTML Specification</a></li>
     <li><a href="https://www.ampproject.org/learn/how-amp-works/">How AMP Works</a></li>
     <li><a href="https://www.ampproject.org/docs/get_started/create">Create your first AMP page</a></li>
