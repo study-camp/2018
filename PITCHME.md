@@ -447,10 +447,41 @@ How does AMP Work?
 ---
 ### [Create <br/> Progressive Web Apps](https://academy.exceedlms.com/student/path/2967#)
 
+ * What are Progressive Web Apps?
+ * What is the App Shell Architecture?
+ * How do Service Workers function?
+
 <!-- Speaker Notes -->
 Note:
 
+Mobile web apps need to be competitive with mobile native apps, but they need to address three issues:
+ * Can they work offline? (without network)
+ * Can they be performant? (no janky animations)
+ * Can they be immersive? (full-screen ux)
+ * Can they sustain engagement with users? (alerts)
 
+Progressive Web Apps are apps that deliver on these promises:
+ - Service workers that pre-cache for offline access
+ - App Shell architecture for fast loads & renders
+ - App Manifest that enables full-screen UX & home-screen installs
+ - Push Notifications to enable real-time alerts 
+
+App Shell Architecture
+ - Keep UI (static) separate from data (dynamic)
+ - Minimal UI for initial loads improves performance
+ - Caching UI resources for reuse enables offline 
+ - Dynamic data needs have more available network bandwidth
+
+App Shell UI
+ - Minimum "shell" for webpage (high reuse factor)
+ - Think "App Layout" views with some initial data.
+
+Service Workers
+ - Work in the background to process network requests
+ - Use for data sync, push notifications delivery etc.
+ - JavaScript code - no direct access to DOM; uses postMessage interface to deliver data or requests to page.
+ - Uses Promises to work async with other PWA processes
+ - Terminated when not in use 
 
 ---
 ### [Engage users <br/> with APIs](https://academy.exceedlms.com/student/path/2967#)
@@ -458,34 +489,6 @@ Note:
 <!-- Speaker Notes -->
 Note:
 
-
-
----?image=assets/image/background.jpg&opacity=100
-## <span class="white"> Study Guide B </span>
- 
-#### <a href="https://support.google.com/partners/answer/7327828"> Google Partners Assessment Guide </a>
-
-![GDG Study Jams](assets/image/logo.png)
-
-
-
----
-## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
-
- * What is the value proposition?
- * How can you improve website speed? 
- * How can you create effective UX?
- * About advanced web technologies
- 
-
----
-## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
-
- 1. (Proposition) <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a>
- 2. (Performance) <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a>
- 3. (Experience) <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a>
- 4. (Evolution) <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a>
- 
 
 ---
 ## 5A. Recommended Reading
@@ -523,6 +526,32 @@ Note:
   </ol>
 </small>
 
+---?image=assets/image/background.jpg&opacity=100
+## <span class="white"> Study Guide B </span>
+ 
+#### <a href="https://support.google.com/partners/answer/7327828"> Google Partners Assessment Guide </a>
+
+![GDG Study Jams](assets/image/logo.png)
+
+
+
+---
+## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
+
+ * What is the value proposition?
+ * How can you improve website speed? 
+ * How can you create effective UX?
+ * About advanced web technologies
+ 
+
+---
+## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
+
+ 1. (Proposition) <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a>
+ 2. (Performance) <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a>
+ 3. (Experience) <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a>
+ 4. (Evolution) <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a>
+ 
 ---
 ## 6. Certification 
  
