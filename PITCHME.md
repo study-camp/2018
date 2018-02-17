@@ -487,10 +487,11 @@ Service Workers
 ### [Engage users <br/> with APIs](https://academy.exceedlms.com/student/path/2967#)
 
 Mobile apps are a big driver of e-commerce. 
-<br/>
-How can you 
- * engage users and bring them back to your site? 
- * reduce payments friction in checkout workflow?
+Mobile web apps need to tackle two key issues:
+<br/> <br/>
+ 
+ * Engagement: Bring users back to website 
+ * Checkout: Reduce user effort in completion
  
 
 <!-- Speaker Notes -->
