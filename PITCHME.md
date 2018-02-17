@@ -478,56 +478,30 @@ Note:
  * About advanced web technologies
  
 
-
-
 ---
-## 1. Value Proposition 
+## <a href="https://support.google.com/partners/answer/7358899?hl=en&ref_topic=7359299">Preparing for <br> Assessment</a>
+
+ 1. (Proposition) <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a>
+ 2. (Performance) <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a>
+ 3. (Experience) <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a>
+ 4. (Evolution) <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a>
  
-#### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Mobile Sites & Why They Matter</a> </span>
 
-<!-- Speaker Notes -->
-Note:
+---
+## 5. Recommended Reading
 
-
+<small>
+  <ol>
+    <li> <a href="https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html">Find Out How You Stack Up to New Industry Benchmarks for Mobile Page Speed</a></li>
+    <li> <a href="https://www.thinkwithgoogle.com/articles/mobile-retail-apps-and-sites-designing-better-experience-for-shoppers.html"> Mobile Retail Apps and Sites: Designing a Better Experience for Shoppers </a></li>
+  </ol>
+</small>
+ 1. 
 
 
 
 ---
-## 2. Site Performance
- 
-#### <span class="white"> <a href="https://support.google.com/partners/answer/7327828"> Improving mobile site speed</a> </span>
-
-<!-- Speaker Notes -->
-Note:
-
-
-
-
----
-## 3. User Experience
-
-#### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Creating an effective mobile UX</a> </span>
-
-<!-- Speaker Notes -->
-Note:
-
-
-
-
----
-## 4. Tech Evolution 
- 
-#### <span class="white">  <a href="https://support.google.com/partners/answer/7327828"> Advanced Web Technologies </a> </span>
-
-<!-- Speaker Notes -->
-Note:
-
-
-
-
-
----
-## 5. Certification 
+## 6. Certification 
  
 #### <span class="white">  <a href="https://support.google.com/partners/answer/7358899"> Taking the Assessment </a> </span>
 
