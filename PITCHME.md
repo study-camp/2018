@@ -518,7 +518,7 @@ Note:
     <li><a href="https://www.ampproject.org/learn/how-amp-works/">How AMP Works</a></li>
     <li><a href="https://www.ampproject.org/docs/get_started/create">Create your first AMP page</a></li>
     <li><a href="https://developers.google.com/web/progressive-web-apps/">Progressive Web Apps</a></li>
-    <li><a href="https://developers.google.com/web/fundamentals/getting-started/primers/promises"></a>JavaScript Promises</li>
+    <li><a href="https://developers.google.com/web/fundamentals/getting-started/primers/promises">JavaScript Promises</a></li>
     <li><a href="https://developers.google.com/web/fundamentals/discovery-and-monetization/payment-request/">Payment Request API: An Integration Guide</a></li>
   </ol>
 </small>
