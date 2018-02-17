@@ -486,9 +486,38 @@ Service Workers
 ---
 ### [Engage users <br/> with APIs](https://academy.exceedlms.com/student/path/2967#)
 
+Mobile apps are a big driver of e-commerce. How can you 
+ * engage users and bring them back to your site? 
+ * reduce payments friction in the checkout workflow?
+ 
+
 <!-- Speaker Notes -->
 Note:
 
+Keep users engaged with relevant push notifications.
+ * Service workers power Push API => think PWA
+ * Background thread to trigger "async" notifications
+ * Support alerts from non-user interaction events
+ * Users permissions to "enable" push notifications
+ * Be "timely, relevant, precise" - don't annoy users
+
+Reduce friction in checkout workflow with payments API.
+ * Online forms and security checks slow users down
+ * Payment Request API = browser as secure middleman
+ * Caches payment credentials securely, auto-fills forms
+
+How does payment API work?
+ * Merchant creates payment request with purchase criteria
+ * Purchase Criteria = amount, currency, payment options accepted
+ * Browser = evaluates request, determines fulfillment
+ * Browser = prompts user for confirmation (pre-filled form)
+ * User = confirms (1-click) & browser completes merchant transaction
+
+Payment API can be extended to reduce friction in other aspects:
+ * Collect shipping addresses, pre-fill shipping options
+ * Collect contact information, pre-fill customer info
+ * (Planned) Collect loyalty information, pre-fill rewards 
+ * (Planned) Collect giftcard information, offer as payments option
 
 ---
 ## 5A. Recommended Reading
