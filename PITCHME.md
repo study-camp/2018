@@ -486,9 +486,9 @@ Service Workers
 ---
 ### [Engage users <br/> with APIs](https://academy.exceedlms.com/student/path/2967#)
 
-Mobile apps are a big driver of e-commerce. 
-Mobile web apps need to tackle two key issues:
-<br/> <br/>
+Mobile apps are a big driver of e-commerce. <br/> 
+Mobile web apps must tackle two issues:
+<br/> 
  
  * Engagement: Bring users back to website 
  * Checkout: Reduce user effort in completion
