@@ -81,87 +81,93 @@ Note:
 _Time: 15 mins_
 
 Slowdown Causes:
- * (Loading) Network delays, hardware
- * (Response) Poor user-input handling
- * (Animation) Misuse of scrolling, dragging,..
- * (Idle) Misuse of idle time
+
+ * (Loading) Network delay, h/w
+ * (Response) Bad user-input handling
+ * (Animation) Scrolling, dragging 
+ * (Idle) Overloading when idle
 
 RAIL Model for Performance:
- * Response Time _under 50 ms_
- * Animation Time _under 10ms per frame_
- * Idle Time _maximize, impacts response time_
- * Load Time _under 5s to first load, interactive_
+
+ * Response Time _< 50 ms_
+ * Animation Time _< 10ms/frame_
+ * Idle Time _maximize_
+ * Load Time _< 5s to interactive_
+
 
 [Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/) is the sequence of steps performed by browser to convert _received bytes_ (raw) into _displayed pages_ (site).
 
- * prioritize content for imminent actions
- * minimize time for first render
- * progressive render for optimal performance
+ * prioritize content display for imminent actions
+ * minimize time taken for first render
+ * progressive rendering for optimal performance
+
+
+[Object Models](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model) define the structure and style of the displayed page
+
+ * DOM (or Document Object Model) 
+    + from HTML (raw bytes)
+    + defines structure (tree of tags)
+    + see _Parse HTML Events_ in DevTools
+ * CSSOM (or CSS Object Model) 
+    + from CSS (raw bytes)
+    + defines style (tree of cascading properties)
+    + see _Recalculate Style Events_ in DevTools
+
+The Render Tree is the process of converting raw bytes (received) into object model (processed) typically in this order:
+ * bytes ->
+ * characters ->
+ * tokens ->
+ * nodes ->
+ * object models
+
 
 [Render Tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction) 
+
  * combines DOM and CSSOM inputs
  * contains only nodes required to render _this_ page
  * computes layout of each visible element
- * is input to paint process that renders pixels to screen
+ * input to paint process (renders pixels to screen)
 
-Render Tree:
- * Constructed in this order
-  + Bytes -> 
-  + Characters -> 
-  + Tokens -> 
-  + Nodes -> 
-  + Object Model
- * DOM = DOCUMENT Object Model (from HTML bytes)
- * CSSOM = CSS Object Model (from CSS bytes)
- * DOM & CSSOM are _independent_ structures
-  + DOM defines structure (tree of tags)
-  + CSSOM defines style (cascading tree)
- * DOM & CSSOM performance in DevTools
-  + Parse HTML events => track DOM creation
-  + Recalculate Style events => track CSSOM creation
+[Layout Impact](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/)
 
-Use Chrome DevTools to debug delays:
+ * Layout changes ("reflows") cause slowdown
+ * Things that can have an impact:
+   + orientation changes
+   + complex animations
+   + poor layout configurations
+ * Goal: minimize layout change triggers
 
- * _Inspect_ Website, open _Network_ tab
- * Enable _Capture Screenshots_
- * Check _Disable Cache_
- * Set Online to _Slow 3G_
- * Now reload page
- * Check _Finish_ and _Load_ times in footer
- * Check _DOMContentLoaded_ time in footer
- * Check _Waterfall_ green (TTFB) & blue (download) 
 
-Causes of delay
+[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/) for Perf/Delay Diagnosis:
 
- * Identify items with large blue waterfalls. These indicate large download times that need to be optimized (e.g., compress or scale image, minimize scripts etc.)
- * DOMContentLoaded is effectively 'idle' browser time while it waits for DOM to be ready. Likely culprit is JavaScript file (parser blocking). Make these async and move to end of page <body> to speed up loading of HTML.
+ * _Inspect_ Website
+    + open _Network_ tab
+    + Enable _Capture Screenshots_
+    + Check _Disable Cache_
+    + Set Online to _Slow 3G_
+    + Reload page
 
-Understanding render trees
+ * _Review Insights_
+    + _Finish_ and _Load_ times in footer
+    + _DOMContentLoaded_ time in footer
+    + _Waterfall_ green (TTFB) & blue (download)
 
- * render tree = browser process of interpreting DOM/CSSOM
-    + first receive data bytes (HTML and CSS)
-    + convert bytes into objects (DOM and CSSOM)
-    + relate DOM (elements) with CSSOM (style)
-    + place DOM objects on page, apply CSSOM styles
-    + page is now "rendered"
- 
-Understanding layout impact
+ * _Loading delays_ 
+    + Large downloads (e.g., if big blue bars in Waterfall)
+    + Blocking scripts (e.g., large DOMContentLoaded times) 
 
-  * Layout determines "reflows" with device orientation or content changes
-  * Poor configurations = high reflow costs
-  * Complex animations = high reflow costs
-  * Goal = minimize reflows!!
 
 Debugging critical rendering path delays
 
   * Switch to _Performance_ tab in DevTools
-  * Click "Record" to start recording events
-  * Reload page to capture all events for initial render
-  * Stop recording, filter by event name to see data
+    + Enable "Record" of events
+    + Reload page 
+    + Stop recording when page is displayed 
+  * Filter by event name to see total time taken
     + Parse HTML = time for building DOM
     + Recalculate Style = time for building CSSOM
     + Paint = time for updating screen area for view
-    + Composite Layer = time for creating final view by combining multiple elements that influence that section of view 
+    + Composite Layer = time for creating final view from overlapping areas
 
 Bottom line:
 Chrome DevTools (CDT) helps detect different sources of latency in your website, and provides tools to debug causes of those performance issues. It does NOT however fix them for you.
