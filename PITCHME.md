@@ -26,6 +26,7 @@
 
 ---
 ### [Win customers <br/> with mobile sites](https://academy.exceedlms.com/student/path/2967#)
+<br/>
 
   * What is a mobile website?
   * How does the user benefit?
@@ -42,39 +43,82 @@ Definition:
  * website tailored for mobile device
  * accessed via browser on phones
 
-Benefits to user:
+User Benefits:
 
  * easy to discover (no pre-install)
  * intuitive to use (familiar UI/UX)
  * readily available on phones
 
-Benefits to owner:
+Owner Benefits:
 
- * lower development/maintenance costs
- * high usability * tracking
- * single codebase for cross-platform reach
+ * lower development cost
+ * lower maintenance cost
+ * higher usability 
+ * improved user tracking
+ * single codebase (cross-platform)
 
-Key turnoffs that impact conversions: 
+Conversion turn-offs: 
 
  * slow page loads
  * poor user experience 
- * (cellular) network constraints (e.g., bandwidth)
+ * network constraints (e.g., bandwidth)
 
 
 
 
 ---
 ### [Cut load times <br/> with Developer Tools](https://academy.exceedlms.com/student/path/2967#)
+<br/>
 
- * What is [the render tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)?
  * What [slows down](https://developers.google.com/web/fundamentals/performance/rail) websites?
+ * What is the [render tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)?
  * What are [DevTools?](https://developers.google.com/web/tools/chrome-devtools/)?
- * How can DevTools [diagnose slow-downs](https://developers.google.com/web/tools/chrome-devtools/network-performance/)?
+ * How can DevTools [diagnose](https://developers.google.com/web/tools/chrome-devtools/network-performance/) perf issues?
 
 <!-- Speaker Notes -->
 Note:
 
 _Time: 15 mins_
+
+Slowdown Causes:
+ * (Loading) Network delays, hardware
+ * (Response) Poor user-input handling
+ * (Animation) Misuse of scrolling, dragging,..
+ * (Idle) Misuse of idle time
+
+RAIL Model for Performance:
+ * Response Time _under 50 ms_
+ * Animation Time _under 10ms per frame_
+ * Idle Time _maximize, impacts response time_
+ * Load Time _under 5s to first load, interactive_
+
+[Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/) is the sequence of steps performed by browser to convert _received bytes_ (raw) into _displayed pages_ (site).
+
+ * prioritize content for imminent actions
+ * minimize time for first render
+ * progressive render for optimal performance
+
+[Render Tree](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction) 
+ * combines DOM and CSSOM inputs
+ * contains only nodes required to render _this_ page
+ * computes layout of each visible element
+ * is input to paint process that renders pixels to screen
+
+Render Tree:
+ * Constructed in this order
+  + Bytes -> 
+  + Characters -> 
+  + Tokens -> 
+  + Nodes -> 
+  + Object Model
+ * DOM = DOCUMENT Object Model (from HTML bytes)
+ * CSSOM = CSS Object Model (from CSS bytes)
+ * DOM & CSSOM are _independent_ structures
+  + DOM defines structure (tree of tags)
+  + CSSOM defines style (cascading tree)
+ * DOM & CSSOM performance in DevTools
+  + Parse HTML events => track DOM creation
+  + Recalculate Style events => track CSSOM creation
 
 Use Chrome DevTools to debug delays:
 
@@ -94,8 +138,6 @@ Causes of delay
 
 Understanding render trees
 
- * DOM = document object model (structure)
- * CSSOM = CSS object model (styling)
  * render tree = browser process of interpreting DOM/CSSOM
     + first receive data bytes (HTML and CSS)
     + convert bytes into objects (DOM and CSSOM)
@@ -123,6 +165,9 @@ Debugging critical rendering path delays
 
 Bottom line:
 Chrome DevTools (CDT) helps detect different sources of latency in your website, and provides tools to debug causes of those performance issues. It does NOT however fix them for you.
+
+
+
 
 
 
